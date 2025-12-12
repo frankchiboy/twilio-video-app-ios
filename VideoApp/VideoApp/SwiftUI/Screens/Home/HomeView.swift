@@ -32,12 +32,12 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             FormStack {
-                Text("Twilio Programmable Video")
+                Text("EudTech Voice")
                     .font(.title.bold())
                     .multilineTextAlignment(.center)
                     .padding(.top, -40) /// A little clunky but `FormStack` needs some work
-                
-                Text("Enter the name of a room you'd like to join.")
+
+                Text("Start a voice-first room. The camera stays off until you decide to turn it on.")
                 
                 TextField("Room name", text: $roomName)
                     .textFieldStyle(FormTextFieldStyle())

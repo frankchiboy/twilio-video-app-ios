@@ -36,7 +36,7 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oX1-TW-dVA">
                                 <rect key="frame" x="20" y="333" width="374" height="48"/>
-                                <color key="backgroundColor" red="0.64296793937683105" green="0.12823647260665894" blue="0.15827658772468567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.059" green="0.463" blue="0.431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="fGu-nn-PGf"/>
                                 </constraints>
@@ -67,7 +67,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8Fe-i6-cdh"/>
-                        <color key="backgroundColor" red="0.80463725328445435" green="0.16199085116386414" blue="0.20183241367340088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.043" green="0.090" blue="0.149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="MXx-uc-eqE" firstAttribute="leading" secondItem="JE7-HK-ASa" secondAttribute="leading" id="2oU-Hp-sDD"/>
                             <constraint firstItem="aYe-GN-WTo" firstAttribute="trailing" secondItem="JE7-HK-ASa" secondAttribute="trailing" id="2zR-GC-IEE"/>
@@ -88,7 +88,7 @@
                             <constraint firstItem="H83-Ih-XT9" firstAttribute="centerX" secondItem="8Fe-i6-cdh" secondAttribute="centerX" id="yeV-hv-tJ7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Sign in" id="pBp-O1-Ias"/>
+                    <navigationItem key="navigationItem" title="EudTech Voice" id="pBp-O1-Ias"/>
                     <connections>
                         <outlet property="passcodeTextField" destination="aYe-GN-WTo" id="xHa-ve-t9u"/>
                         <outlet property="signInButton" destination="oX1-TW-dVA" id="bEE-WW-8s4"/>
@@ -123,7 +123,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izX-1R-9hf">
                                 <rect key="frame" x="51" y="412" width="312" height="48"/>
-                                <color key="backgroundColor" red="0.63921568627450975" green="0.13333333333333333" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.059" green="0.463" blue="0.431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="emailSignInButton"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Sign in with Existing Account">
@@ -135,7 +135,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MEk-eW-89X"/>
-                        <color key="backgroundColor" red="0.80000000000000004" green="0.16862745100000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.043" green="0.090" blue="0.149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="izX-1R-9hf" firstAttribute="height" secondItem="fwk-pW-rSy" secondAttribute="height" id="82c-gD-tdV"/>
                             <constraint firstItem="izX-1R-9hf" firstAttribute="centerX" secondItem="MEk-eW-89X" secondAttribute="centerX" id="I0O-ak-0U1"/>
@@ -147,7 +147,7 @@
                             <constraint firstItem="hJy-Fo-dHs" firstAttribute="top" secondItem="MEk-eW-89X" secondAttribute="top" constant="128" id="zhe-ex-yTZ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="u5D-hS-Zby"/>
+                    <navigationItem key="navigationItem" title="EudTech Voice" id="u5D-hS-Zby"/>
                     <connections>
                         <outlet property="googleSignInButton" destination="fwk-pW-rSy" id="bFV-py-6Up"/>
                     </connections>
@@ -209,7 +209,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKg-rM-XYx">
                                 <rect key="frame" x="77" y="333" width="113.5" height="48"/>
-                                <color key="backgroundColor" red="0.63921568630000003" green="0.1333333333" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.059" green="0.463" blue="0.431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="oCN-Yx-aeK"/>
                                 </constraints>
@@ -223,7 +223,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TJl-b4-oUI">
                                 <rect key="frame" x="222.5" y="333" width="113.5" height="48"/>
-                                <color key="backgroundColor" red="0.63921568630000003" green="0.1333333333" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.059" green="0.463" blue="0.431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration" identifier="submitButton"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="L73-wV-wer"/>
@@ -238,7 +238,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SaR-kn-7En"/>
-                        <color key="backgroundColor" red="0.80000000000000004" green="0.16862745100000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.043" green="0.090" blue="0.149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Axn-ed-SSN" firstAttribute="top" secondItem="Egl-h7-xAE" secondAttribute="bottom" constant="-3" id="Asf-S3-T1I"/>
                             <constraint firstItem="Kra-TT-7Ah" firstAttribute="leading" secondItem="SaR-kn-7En" secondAttribute="leading" constant="16" id="BMR-wE-ydT"/>
@@ -289,7 +289,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MZl-4h-Jwx"/>
-                        <color key="backgroundColor" red="0.80000000000000004" green="0.16862745100000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.043" green="0.090" blue="0.149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pOc-QE-OpY" firstAttribute="centerX" secondItem="MZl-4h-Jwx" secondAttribute="centerX" id="YAa-x5-9Qo"/>
                             <constraint firstItem="pOc-QE-OpY" firstAttribute="centerY" secondItem="Wzg-Au-nd3" secondAttribute="centerY" id="eXq-Fk-ryE"/>
@@ -331,7 +331,7 @@
                                         </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ju9-fz-T1F">
                                             <rect key="frame" x="20" y="33" width="374" height="0.0"/>
-                                            <color key="backgroundColor" red="0.80000000000000004" green="0.16862745100000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.043" green="0.090" blue="0.149" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </subviews>
                                     <constraints>

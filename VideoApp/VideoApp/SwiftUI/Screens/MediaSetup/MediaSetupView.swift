@@ -68,7 +68,7 @@ struct MediaSetupView: View {
             .onAppear {
                 isMediaSetup = false
                 localParticipant.isMicOn = true
-                localParticipant.isCameraOn = true
+                localParticipant.isCameraOn = false
             }
             .onDisappear {
                 // Is called for cancel button and swipe dismiss gesture

@@ -6,6 +6,8 @@
 	<string>$(APP_CENTER_APP_SECRET)</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>EudTech Voice</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -37,9 +39,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>${PRODUCT_NAME} uses your camera to capture video which is shared with other Room participants.</string>
+	<string>EudTech Voice only turns on the camera when you ask, and shares video with other room participants.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>${PRODUCT_NAME} uses your microphone to capture audio which is shared with other Room participants.</string>
+	<string>EudTech Voice uses your microphone to share audio with other room participants.</string>
 	<key>TargetName</key>
 	<string>$(TARGET_NAME)</string>
 	<key>UIApplicationSceneManifest</key>
