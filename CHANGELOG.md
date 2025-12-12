@@ -1,5 +1,13 @@
 # Change Log
 
+## [Unreleased] - 2025-12-12
+
+### Changed / 變更
+
+- Updated app icons and brand assets / 更新應用程式圖標和品牌資源
+- Modified color schemes and UI styling / 修改色彩配置和 UI 樣式
+- Updated launch screen and storyboards / 更新啟動畫面和 storyboard
+
 ## 0.1.24 (February 12, 2025)
 
 ### Maintenance
